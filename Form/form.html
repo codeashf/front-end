@@ -1,4 +1,4 @@
-la<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,23 +13,75 @@ la<!DOCTYPE html>
     - select
     - button
     - label-->
+    <form>
+        <Table border=""cellspacing="1" cellpadding="1">    
+            <!--input text-->
+            <tr>
+                <td>
+                    <label for="username">username : </label>
+                    <input type="text" id="username">
+                </td>
+            </tr>
 
-   <!--input text-->
-    <label for="username">username : </label>
-   <input type="text" id="username">
-   <br>
-   <!--Input password-->
-   <label for="password">password : </label>
-   <input type="password" id="password">
-   <br>
-   <!--Radio button-->
-   <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
-   <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
-   <br>
-   <!--Input checkbox-->
-   <input type="checkbox" id="workout"><label for="workout">workout</label>
-   <input type="checkbox" id="ngoding" <label for="ngoding">ngoding</label>
-   <br>
-   
+            <!--Input password-->
+            <tr>    
+                <td>
+                    <label for="password">password : </label>
+                    <input type="password" id="password"> 
+                </td>
+            </tr>
+
+            <!--Radio button-->
+            <tr>
+                <td>
+                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+                </td>
+                <td>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+                
+                </td>
+            </tr>
+          
+    <!--Input checkbox-->
+      
+            <tr>
+                <td>
+                    <input type="checkbox" id="workout"><label for="workout">workout</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="traveling"><label for="traveling">traveling</label>
+                </td>
+            </tr>           
+
+        <!-- Select /combo box-->
+            <tr>
+                <td>
+                    <select>
+                        <option>Bandung</option>
+                        <option>Jakarta</option>
+                        <option>Padang</option>
+                        <option>Sukabumi</option>
+                        <option>Bogor</option>
+                        <option>Cianjur</option>
+                    </select>
+                </td>
+            </tr>     
+
+            <tr>
+                <td>
+
+                <!--text area-->
+                    <textarea name="komentar" id="komentar" cols="40" rows="5">Deskripsi..</textarea>
+                </td>        
+            </tr>
+
+            <!--Button-->
+            <button type="submit">kirim </button>
+                            
+        </table>
+    </form>
 </body>
 </html>

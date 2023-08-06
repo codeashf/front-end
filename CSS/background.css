@@ -1,0 +1,11 @@
+body{
+    background-color: #b8e9ff;
+    background-image: url(../HTML/image/efishery.webp);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* ShortHand
+
+background: lightgreen url(../HTML/image/efishery top left no-repeat; 
+*/

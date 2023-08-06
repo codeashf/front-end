@@ -1,0 +1,22 @@
+/* Kelas semua yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut.
+http://wwww.w3schools.com/css/css_pseudo_classes.asp */
+
+/* 
+- :link (style default pada sebuah link (a yang memiliki href)
+- :hover (style ketika kursor mouse berada di atas sebuah link/elemen
+- :active (stye ketika sebuah link di-klik (keadaan aktif)
+- :visited (style ketika sebuah link sudah pernah dikunjungi sebeleumnya (mengguankan browser yang sama)
+*/
+
+.hello:link {
+    color: orange; 
+}
+
+.hello:hover {
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}

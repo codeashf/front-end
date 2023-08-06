@@ -1,0 +1,39 @@
+h1 {
+font-family: helvetica, arial, sans-ser;
+color: maroon;
+font-size: 40px;
+font-variant: small-caps;
+font-style: oblique;
+font-weight: bold
+
+}
+
+p {
+    font-family: "Helvetica Ne";
+    color: maroon;
+    line-height: 20px;
+    text-transform: lowercase;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+a {
+    text-decoration: none; /*menghilangkan underline*/
+}
+
+
+/*-- sHORTHAND CSS 
+body{
+    font: italic(font style) normal (font-variant) bold(font weight) 16px(font-size)/18px(line-height) helvetica, arial, sans-serif;
+}
+*/
+/*Belajar Text Styling
+Color = memberi warna pada tulisan (name, hex
+text-align = mengatur format paragraf/teks (left,right,center,justify
+text-indent = memberi identitas pada paragraf/teks (px, %)
+text-decoration = mengatur dekorasi pada teks (none, underline, overline, line-through)
+text-transform = mengubah jenis huruf menjadi huruf besar, kecil/kapital 
+                (none, uppercase, lowercase,capitalize)
+letter-spaing = mengatur spasi pada huruf (normal,px)
+word-spacing = mengatur spasi antar kata
+*/

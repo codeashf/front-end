@@ -1,0 +1,25 @@
+/*Sebuah Elemen mewarisi beberapa nilai dari properti yang dimiliki oleh elemen parent-nya*/
+/* http://www.w3.org/TR/CSS21/cascade.html#inheritance*/
+
+/*property
+color
+font
+letter-spacing
+line-height
+list-style
+text-align
+text-indent
+text-tranform
+visibility
+white-space
+*/
+
+body{
+    font-family:poppins,sans;
+    color:dark grey;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

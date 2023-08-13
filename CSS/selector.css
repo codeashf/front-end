@@ -1,0 +1,46 @@
+/* Untuk mengenal sebuah elemen HTML yang akan diberi style */
+/* http://www.w3schools.com/cssref/css_selector.asp */
+
+/*selectors
+- elemen HTML
+- id
+- class
+- complex selector
+*/
+
+/* ID
+- Sebuah elemen HTML hanya boleh memilii 1 id
+- Setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut
+- Dapat digunakan sebagai penanda halaman atau link
+- digunakan juga untuk javascript
+- sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)
+
+
+body {
+    font-family: poppins, helvetica, arial, sans-serif;
+}
+
+h1,h2 {
+    color: khaki;
+}
+
+h2 {
+    font-style: italic;
+}
+
+ul li a{
+    color: brown;
+}
+
+ol li a{
+    color: brown;
+}
+
+#p1 {
+    color: brown;
+}
+
+.p2 {
+    color: black;
+}
+

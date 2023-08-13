@@ -20,3 +20,27 @@ http://wwww.w3schools.com/css/css_pseudo_classes.asp */
 .hello:active {
     font-style: italic;
 }
+
+/* 
+: first-child = memilih elemen pertama dari sebuah parent (element pembungkusnya)
+: last-child = memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+: nth-child(n) = memilih elemen ke-n dari sebuah parent (elemen pembungkusnya).
+                 n bisa berarti urutan (1) (2) ..... atau pola (2n,(3n+2),(4n+1) atau ganjil dan genap (even) & (odd)
+*/
+
+li:first-child a {
+    color: green;
+}
+
+li:nth-child(2n) a {
+    color: purple;
+}
+
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+/* 
+:first-of-type = memilih elemen pertama dari sebuah jenis/tipe tag
+:last-of-type = memilih elemen terakhit dari sebuah jenis/tipe tag
+*/

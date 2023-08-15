@@ -47,13 +47,11 @@ table {
 /* style */
 body {
     font: 16px/28px poppins, sans-serif;
-    background-color: aquamarine;
     color: black;
-    
 }
 
 .container {
-    width: 800px;
+    width: auto;
     margin: auto;
     background-color: #614BC3;
 }
@@ -126,5 +124,11 @@ body {
     background-color:aquamarine;
 }
 
+.footer .copy{
+    background-color: #313866;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
 
 

@@ -1,0 +1,68 @@
+/* Float merupakan properti pada CSS 
+untuk mengatur posisi sebuah elemen. Sebuah 
+elemen dapat dipaksa untuk berada disebelah kiri atau kanan dari parent. pembungkusnua 
+dengan menggunakan properti ini. */
+
+/* None, Left, Right */
+
+/* text wrapping = membuat teks mengelilingi gambar/elemen lain
+   image gallery = membuat serangkaian gambar menjadi gallery
+   multi-column layout = membuat halaman memiliki beberapa kolom
+   dll */
+
+   /* cara menangani crash pada float */
+   /* 1. Menggunakan property overflow
+      2. Menggunakan <div> kosong
+      3. menggunakan teknik mocro clearfix
+      */
+
+      /* Clear = menghentikan/membersihkan float
+      left,right,both */
+
+.container{
+    width: 600px;
+    border: 1px solid #FE7BE5;
+    margin: auto;
+    padding: 5px;
+}
+
+.satu, .dua, .tiga{
+
+        width: 100px;
+        height: 100px;
+        Float : left;
+        margin: 10px;
+}
+
+.satu {
+    background-color: #313866;
+}
+.dua{
+    background-color: #504099;
+}
+.tiga{
+    background-color: #974EC3;
+}
+
+p {
+    padding: 10px;
+
+}
+
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

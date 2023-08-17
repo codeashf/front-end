@@ -34,8 +34,8 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+	main: '';
+	main: none;
 }
 table {
 	border-collapse: collapse;
@@ -46,89 +46,131 @@ table {
 
 /* style */
 body {
-    font: 16px/28px poppins, sans-serif;
-    color: black;
+	font: 16px/28px poppins, sans-serif;
 }
 
-.container {
-    width: auto;
-    margin: auto;
-    background-color: #614BC3;
+.container{
+	width:1300px;
+	margin:auto;
+	background-color: #white;
+	color: #4dc7a2;
 }
 
-.header .judul {
-    font-weight: bold;
-    color: white;
-    font-size:40px;
+.container .logo img{
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-size: 10px;
+	display: inline-block;
 }
 
-.header {
-    padding: 20px;
-    padding-bottom: 2px;
+.nav ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
-.header ul li {
-    margin-top: 40px;
-    display: inline-block;
-    margin-right: 5px;
+.nav ul li a{
+	color: #4dc7a2;
+	text-decoration: none;
+	padding:5px;
 }
 
-.header a{
-    text-decoration: none;
-    color: white;
-    padding: 7px;
+.nav a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #4dc7a2;
 }
 
-.header a:hover {
-    background-color: white;
-    color: #614BC3;
+.hero {
+	height: 200px;
+	margin-left: 20px;
+	background-image: url(image/fish2.jpg);
+	background-size: cover;
+	background-position: 0 ;
+	margin-top: 15px;
+	padding-top: 50px;
+	border-top: 3px solid #4dc7a2;
+	border-bottom: 3px solid #4dc7a2;
+	background-position: 0 -150px;
 }
 
-.hero{
-    height: 400px;
-    background-size: cover;
-    background-image:url(image/lobster.jpg);
-    background-position: 0;
-    border-top: 3px solid aquamarine;
-    border-bottom: 3px solid #614BC3;
+.main{
+	color: black;
+	padding: 20px;
+	width: 700px;
+	box-sizing: border-box;
+	float: left;
 }
 
-.content {
-    padding: 20px;
+.main .judul{
+	font-size: 30px;
+	font-weight: bold;
+}
+.main .penulis{
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.main .penulis a{
+	text-decoration: none;
+	color: #4dc7a2;
+}
+.main .penulis a:hover{
+	border-bottom: 1px solid #4dc7a2;
+	padding: 5px;
+}
+.main p{
+	margin-bottom: 20px;
+	font-size: 14px;
 }
 
-.content h2{
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
+.footer {
+	background-color: #4dc7a2;
+	padding: 10px;
 }
 
-.content .isi{
-    padding-top: 20px;
-    color: white;
+.footer .copy {
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
 }
 
-.content .penulis {
-    padding-top: 10px;
-    color: white;
+/* sidebar */
+
+.sidebar {
+	width: 400px;
+	padding: 20px;
+	float: right;
 }
 
-.content a {
-    text-decoration: none;
-    color: white;
-    font-style: italic;
-}
-.content a:hover{
-    text-decoration: none;
-    color : white;
-    background-color:aquamarine;
+.sidebar h3{
+	color: black;
+	font-weight: bold;
 }
 
-.footer .copy{
-    background-color: #313866;
-    color: white;
-    text-align: center;
-    font-size: 12px;
+.sidebar img{
+	padding-top: 20px;
+	width: 70px;
+	float: left;
+	padding-right: 15px;
+}
+
+.sidebar p{
+	color: black;
+	font: 12px/23px poppins, sans-serif;
 }
 
 
+/*clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
